@@ -56,6 +56,8 @@ public class hovering_drag_drop {
 	    price_slider.dragAndDropBy(sliderY, -50, 0).build().perform();
 		Thread.sleep(2000);
 		
+		driver.close();
+		
 		
 		
 		
